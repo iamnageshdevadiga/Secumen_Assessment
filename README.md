@@ -1,37 +1,46 @@
 Antivirus Log Parser
-This Python program parses an antivirus system log string and extracts key information based on predefined keys. It provides a structured dictionary containing the parsed data.
-
-Introduction
-The Antivirus Log Parser is a Python program designed to extract key information from an antivirus system log string. It supports various predefined keys, and the extracted data is organized into a dictionary.
+The Antivirus Log Parser is a Python script designed to parse antivirus system log strings and extract key information. It includes a set of functions to parse specific fields and convert values to integers when appropriate.
 
 Features
 Parses antivirus system log strings.
 Extracts data for specified keys.
-Returns a dictionary containing parsed data.
+Converts certain values to integers.
+
 Usage
 Clone the Repository:
 
 bash
-Copy code
-git clone https://github.com/your-username/antivirus-log-parser.git
-cd antivirus-log-parser
-Run the Program:
+git clone git@github.com:iamnageshdevadiga/Secumen_Assessment.git
+cd Secumen_Assessment
 
+Create and Activate Virtual Environment:
 bash
-Copy code
-python antivirus_log_parser.py
-Modify the system_log_string variable in the script with your own log string for testing.
+python -m venv venv
 
-Output:
-The parsed data will be printed to the console.
+Activate the virtual environment:
+    For Windows Command Prompt:
+        venv\Scripts\activate
+    For Unix/Linux:
+        source venv/bin/activate
 
-Installation
-No installation is required. Simply clone the repository and run the Python script.
+Install Dependencies:
+    pip install -r requirements.txt
+
+Run the Script:
+    python your_script_name.py
+
+Run Tests:
+    pytest
+
+Requirements
+    Python 3.x
 
 Dependencies
-This program does not have any external dependencies.
+    pytest
+
+Contributing
+Feel free to contribute to this project. Follow the contribution guidelines for more details.
 
 License
 This project is licensed under the MIT License.
-
 
