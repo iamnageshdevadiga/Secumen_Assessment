@@ -1,5 +1,5 @@
 
-# Log Parser
+# Log Parser/String parserer
 
 The Log Parser is a Python script designed to parse antivirus system log strings and extract key information. It includes a set of functions to parse specific fields and convert values to integers when appropriate.
 
