@@ -25,7 +25,7 @@ def test_string_parserer():
                 "cs4": "https://aws-dev.sacdev.io/settings/tir?rules.sort=4%3A1&filter=state%3D%3D2&selected=9739323",
                 "cn1Label": "severityScore",
                 "cn1": "900",
-                "msg": "Malicious activity was reported in CAAS\\= A threat intelligence rule has been automatically ally created in DAAS",
+                "msg": "Malicious activity was reported in CAAS\\= A threat intelligence rule has been automatically created in DAAS",
                 "dhost": "bad.com",
                 "dst": "1.1.1.1"
             }

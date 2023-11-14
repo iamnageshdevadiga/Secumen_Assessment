@@ -51,9 +51,9 @@ def parse_key_value(input_string,key, end=" "):
         return ' '.join(value.split(end, 1))
     
     elif key+'=' in input_string:
-        initial_index = system_log_string.find(key+"=")
-        final_index = system_log_string[initial_index:].find(end)
-        final_string = system_log_string[initial_index:final_index+initial_index]
+        initial_index = input_string.find(key+"=")
+        final_index = input_string[initial_index:].find(end)
+        final_string = input_string[initial_index:final_index+initial_index]
         return final_string.split("=",1)[1]
     else:
         return 'None'
