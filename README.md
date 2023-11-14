@@ -8,7 +8,6 @@ Parses antivirus system log strings.
 
 Extracts data for specified keys.
 
-Converts certain values to integers.
 ## Usage
 
 Clone the Repository:
